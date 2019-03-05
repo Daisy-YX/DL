@@ -2,4 +2,5 @@ DL API automated test web application can do the API automation test using a tes
 The new feature based on the API test tool
 
 ・Automation on generating token and adding toen to authorization header
+
 ・New Auto API WEB test screen
