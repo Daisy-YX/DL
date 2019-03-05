@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>REST API AUTOTEST</title>
+		<link rel="stylesheet" type="text/css" media="all" href="css/style.css"/>
+        <link id="theme" rel="stylesheet" type="text/css" media="all" href="js/prettify/prettify.css"/>
+	</head>    
+	<body>
+	     <div id="headers" class="main">
+                    <h2>Authorization header</h2>
+
+                       
+
+                        <div>
+                            <ul>
+                                <li>
+                                    <input type="text" name="headers[key][]" tabindex="40" autocomplete="on" placeholder="Key"/>
+                                    <input type="text" name="headers[value][]" tabindex="40" autocomplete="on" placeholder="Value"/>
+                                </li>
+                            </ul>
+                        </div>
+                   
+                </div>
+	    
+		<div id="body" class="main">
+		        <h2>Test File</h2>
+		        <div>
+                            <input type="text" name="file[name]" tabindex="43" placeholder="File Parameter Key"/>
+                            <input type="file" name="file[data]" tabindex="43"/>
+               </div>
+		</div>
+		 <div id="Execute">
+                    <progress value="0" max="100" class="hidden"></progress>
+                    <label for="progress"></label>
+                    <input type="button" name="adder" value="Add Authorization" tabindex="50"/>
+                    <input type="button" name="AutoTest" value="TestExecute" tabindex="51"/>
+                
+                </div>
+	</body>
+	
+</html>
